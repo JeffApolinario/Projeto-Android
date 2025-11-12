@@ -132,11 +132,11 @@ main h2 {
 }
 
 main p {
-    margin: 15px 0 15px 0; /* Margem padrão de todos os parágrafos*/
-    text-align: justify; /* Para alinhar o texto  da esquerda para a direita, e que não fique desalinhado na direita*/
-    text-indent: 30px; /* Recuo no inicio de cada paragrafo */
-    line-height: 2em; /* Altura entre linhas  */
-    font-size: 1em; /* Tamanho da letra */
+    margin: 15px 0 15px 0;
+    text-align: justify; 
+    text-indent: 30px; 
+    line-height: 2em; 
+    font-size: 1em; 
 }
 
 main strong {
@@ -169,7 +169,7 @@ main img.pequena {
 /* formatação do  vídeo */
 div.video {
     background-color: var(--cor5);
-    margin: 0px -20px 30px -20px; /* -20px nas laterais para ele colar na esquerda e 30px para baixo para dar espaçamento do bloco de aside */
+    margin: 0px -20px 30px -20px;
     padding: 20px;
     padding-bottom: 50%;
     position: relative;
@@ -185,7 +185,7 @@ div.video > iframe {
 
 
 /* Formatação do Bloco de Destaque do Site*/
-aside { /* Aside é utilizado para conteúdos periféricos  */
+aside { 
     background-color: var(--cor1);
     padding: 10px;
     border-radius: 10px;
@@ -196,12 +196,12 @@ aside > h3 {
     background-color: var(--cor4);
     color: white;
     padding: 10px;
-    margin: -10px -10px 0px -10px; /* negativo em cima, na direita e na esquerda para dar um espaçamento para fora */
+    margin: -10px -10px 0px -10px; 
     border-radius: 10px 10px 0px 10px;
 }
 aside > ul {
-    list-style-type: "\2714\00A0\00A0"; /* "\2714" para alterar o tipo de bolinha da linha, "\00A0" para dar um espaço entre eles*. Vale Ressaltar que não funciona em outras navegadores a não ser o google */
-    list-style-position: inside; /*para colocar a bolinha dentro do aside*/
+    list-style-type: "\2714\00A0\00A0"; 
+    list-style-position: inside;
     columns: 2;
 }
 
