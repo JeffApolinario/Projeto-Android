@@ -217,7 +217,7 @@ footer {
 /* Formatação dos Links do Rodapé*/
 footer > a {
     text-decoration: none;
-    color: white;
+    color: var(--cor2);
     font-weight:  bolder;
 }
 
